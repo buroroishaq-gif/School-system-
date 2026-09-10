@@ -1,0 +1,637 @@
+Create a complete, modern, professional and fully responsive School Management System Website called “Smart School Management System”.
+The website should look like a real professional school management software used by schools, teachers, students, parents and administrators.
+1. Technology
+Build the system using:
+HTML5
+CSS3
+JavaScript
+Bootstrap or Tailwind CSS
+Responsive design for mobile, tablet and desktop
+Use a clean, modern dashboard UI
+Use icons throughout the system
+Add smooth animations and professional hover effects
+Use a professional school-related color scheme
+Create reusable components
+Make all buttons, forms, menus and navigation functional
+2. Login System
+Create a professional login page with:
+School logo
+School name
+Username / Email
+Password
+Remember Me
+Login button
+Forgot Password
+Show/Hide Password
+Role selection:
+Administrator
+Teacher
+Student
+Parent
+Accountant
+After login, redirect users to the appropriate dashboard based on their role.
+3. Admin Dashboard
+Create a powerful Admin Dashboard containing:
+Dashboard Cards
+Total Students
+Total Teachers
+Total Parents
+Total Classes
+Total Staff
+Total Fees Collected
+Pending Fees
+Attendance Today
+Dashboard Charts
+Student enrollment chart
+Monthly attendance chart
+Fees collection chart
+Class-wise student chart
+Recent Activity
+Show:
+New student registrations
+Fee payments
+Teacher registrations
+Attendance updates
+Exam results
+4. Student Management
+Create a complete Student Management section.
+Add Student Form
+Fields:
+Student ID
+Student Name
+Father’s Name
+Mother’s Name
+Date of Birth
+Gender
+CNIC/B-Form
+Mobile Number
+Email
+Address
+City
+Class
+Section
+Roll Number
+Admission Date
+Previous School
+Blood Group
+Student Photo
+Parent/Guardian Name
+Parent Contact Number
+Buttons:
+Save Student
+Update
+Reset
+Cancel
+Student List
+Display:
+Student Photo
+Student ID
+Name
+Father Name
+Class
+Section
+Roll Number
+Mobile
+Admission Date
+Status
+View
+Edit
+Delete
+Add:
+Search Student
+Filter by Class
+Filter by Section
+Filter by Gender
+Export
+Print
+5. Teacher Management
+Create Teacher Management.
+Add Teacher
+Fields:
+Teacher ID
+Teacher Name
+Father’s Name
+CNIC
+Gender
+Date of Birth
+Mobile Number
+Email
+Address
+Qualification
+Subject
+Department
+Designation
+Joining Date
+Salary
+Teacher Photo
+Teacher list should have:
+ID
+Name
+Subject
+Department
+Phone
+Joining Date
+Status
+View
+Edit
+Delete
+6. Class & Section Management
+Create:
+Add Class
+Add Section
+Assign Class Teacher
+Assign Subjects
+Class timetable
+Student count per class
+Example:
+Nursery
+KG
+Grade 1
+Grade 2
+Grade 3
+Grade 4
+Grade 5
+Grade 6
+Grade 7
+Grade 8
+Grade 9
+Grade 10
+7. Attendance Management
+Create a complete attendance system.
+Student Attendance
+Select Date
+Select Class
+Select Section
+Student list
+Present
+Absent
+Leave
+Late
+Buttons:
+Mark Attendance
+Save Attendance
+Update Attendance
+Show attendance reports:
+Daily
+Weekly
+Monthly
+Student-wise
+Class-wise
+Add attendance percentage.
+8. Teacher Attendance
+Create:
+Teacher attendance
+Present
+Absent
+Leave
+Late
+Daily report
+Monthly report
+9. Fee Management
+Create a professional Fee Management system.
+Fee Structure
+Admission Fee
+Monthly Fee
+Exam Fee
+Transport Fee
+Library Fee
+Other Fee
+Collect Fee
+Fields:
+Student ID
+Student Name
+Class
+Fee Month
+Fee Type
+Amount
+Discount
+Fine
+Total Amount
+Paid Amount
+Remaining Amount
+Payment Date
+Payment Method
+Payment methods:
+Cash
+Bank Transfer
+Online Payment
+Generate a professional Fee Receipt with:
+School logo
+School name
+Student information
+Fee details
+Amount paid
+Remaining balance
+Date
+Receipt number
+Authorized signature
+Add:
+Paid Fees
+Pending Fees
+Defaulters
+Fee History
+10. Examination Management
+Create Examination Management.
+Features:
+Create Exam
+Exam Schedule
+Subjects
+Marks
+Grades
+Passing Marks
+Enter Results
+Update Results
+Publish Results
+Result Card
+Generate professional student result cards containing:
+School logo
+Student name
+Father’s name
+Roll number
+Class
+Section
+Subject
+Total Marks
+Obtained Marks
+Percentage
+Grade
+Position
+Pass/Fail
+Teacher Remarks
+Allow:
+Print Result
+Download Result
+11. Timetable Management
+Create a school timetable system.
+Features:
+Select Class
+Select Section
+Select Day
+Subject
+Teacher
+Start Time
+End Time
+Room Number
+Create a weekly timetable view.
+12. Homework Management
+Teachers can:
+Create homework
+Select class
+Select subject
+Add description
+Add due date
+Upload attachment
+Students/parents can view homework.
+13. Notice Board
+Create Notice Board.
+Admin/teachers can publish:
+School announcements
+Holidays
+Exam notices
+Fee reminders
+Events
+Fields:
+Notice title
+Description
+Date
+Attachment
+Audience
+14. Parent Management
+Create Parent Management.
+Fields:
+Parent ID
+Father/Guardian Name
+Mother Name
+CNIC
+Mobile Number
+Email
+Address
+Occupation
+Children
+Parents should be able to view:
+Child attendance
+Fees
+Results
+Homework
+Notices
+Timetable
+15. Staff Management
+Create staff management for:
+Accountant
+Receptionist
+Librarian
+Security
+Driver
+Other Staff
+Fields:
+Employee ID
+Name
+Father’s Name
+CNIC
+Mobile
+Address
+Designation
+Department
+Joining Date
+Salary
+Photo
+16. Salary / Payroll
+Create Payroll Management.
+Features:
+Employee salary
+Basic salary
+Allowance
+Deduction
+Bonus
+Net salary
+Payment date
+Salary status
+Salary slip
+Generate printable salary slips.
+17. Library Management
+Create Library Management.
+Features:
+Add Books
+Book ID
+Book Name
+Author
+Category
+ISBN
+Quantity
+Available Copies
+Book issue:
+Student/Teacher
+Book
+Issue Date
+Return Date
+Fine
+Add:
+Search books
+Issued books
+Returned books
+Overdue books
+18. Transport Management
+Create Transport Management.
+Features:
+Vehicles
+Vehicle Number
+Driver
+Driver Contact
+Route
+Pickup Points
+Students assigned to route
+19. Reports
+Create a Reports section with:
+Student Report
+Teacher Report
+Attendance Report
+Fee Report
+Pending Fee Report
+Exam Result Report
+Salary Report
+Library Report
+Transport Report
+Every report should support:
+Search
+Filter
+Print
+PDF
+Excel/CSV export
+20. Communication
+Create communication features:
+SMS/notification area
+Parent notifications
+Teacher notifications
+Student notifications
+Fee reminders
+Attendance alerts
+Exam result notifications
+21. School Settings
+Create Settings page.
+Fields:
+School Name
+School Logo
+School Address
+Phone
+Email
+Website
+Principal Name
+Academic Session
+Currency
+Time Zone
+Settings:
+Change Password
+User Roles
+Permissions
+Backup
+System Settings
+22. User Roles & Permissions
+Create role-based permissions.
+Administrator
+Full access.
+Teacher
+Access:
+Students
+Attendance
+Homework
+Exams
+Results
+Timetable
+Notices
+Accountant
+Access:
+Fees
+Payments
+Payroll
+Financial reports
+Student
+Access:
+Profile
+Attendance
+Homework
+Timetable
+Results
+Notices
+Parent
+Access:
+Children
+Attendance
+Fees
+Results
+Homework
+Notices
+23. Navigation Menu
+Create a professional sidebar:
+Dashboard
+Students
+Teachers
+Parents
+Classes & Sections
+Attendance
+Fees
+Examinations
+Timetable
+Homework
+Notice Board
+Staff
+Payroll
+Library
+Transport
+Reports
+Communication
+Settings
+Logout
+Add a top navigation bar with:
+Search
+Notifications
+Messages
+User profile
+Profile dropdown
+Logout
+24. Student Profile Page
+Create a detailed student profile with tabs:
+Profile
+Attendance
+Fees
+Results
+Homework
+Timetable
+Documents
+Show student photo and complete information.
+25. Search System
+Create a powerful global search.
+Search by:
+Student Name
+Student ID
+Roll Number
+Father Name
+CNIC
+Mobile Number
+Teacher Name
+Employee ID
+Search results should appear instantly.
+26. Professional UI
+The design must be:
+Modern
+Clean
+Professional
+Responsive
+Fast
+Easy to use
+Mobile friendly
+Real-world school software style
+Use:
+Cards
+Tables
+Modals
+Dropdowns
+Forms
+Charts
+Statistics
+Notifications
+Confirmation dialogs
+Add proper validation and error messages to all forms.
+27. Database
+Use a proper database structure.
+Create tables/collections for:
+Users
+Students
+Parents
+Teachers
+Staff
+Classes
+Sections
+Subjects
+Attendance
+Fees
+Fee Payments
+Exams
+Results
+Timetable
+Homework
+Notices
+Books
+Book Issues
+Vehicles
+Routes
+Salaries
+Notifications
+Settings
+Use secure authentication and role-based access control.
+28. Security
+Implement:
+Secure login
+Password hashing
+Role-based authorization
+Form validation
+Session management
+Protected admin routes
+Logout
+Permission checks
+Do not expose passwords or sensitive information in the frontend.
+29. Dashboard Design
+Make the dashboard visually impressive.
+At the top:
+“Welcome to Smart School Management System”
+Display:
+Total Students | Teachers | Parents | Classes
+Below:
+Attendance Chart
+Fee Collection Chart
+Student Enrollment Chart
+Then:
+Recent Students
+Recent Payments
+Recent Notices
+Upcoming Exams
+30. Mobile Responsive
+The complete system must work perfectly on:
+Android phones
+iPhones
+Tablets
+Laptops
+Desktop computers
+On mobile:
+Collapsible sidebar
+Responsive tables
+Mobile-friendly forms
+Touch-friendly buttons
+Responsive cards
+31. Demo Data
+Add realistic demo data so the website looks functional immediately.
+Include sample:
+Students
+Teachers
+Classes
+Fees
+Attendance
+Exams
+Results
+Books
+Notices
+32. Final Requirements
+Do not create only a static design.
+Build a fully functional School Management System with working:
+Login
+Dashboard
+Student registration
+Teacher registration
+Parent management
+Attendance
+Fees
+Exams
+Results
+Timetable
+Homework
+Notices
+Library
+Payroll
+Reports
+Search
+Settings
+User roles
+Print/PDF reports
+Make the website look like a premium commercial school management software, not a simple template.
+Use the school name “Smart School Management System” throughout the interface.
+Include a professional logo placeholder and footer:
+“© 2026 Smart School Management System. All Rights Reserved.”
